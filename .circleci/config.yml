@@ -52,5 +52,5 @@ workflows:
     jobs:
       - train_and_test
       - deploy_staging
-        requires:
+          requires:
             - train_and_test
